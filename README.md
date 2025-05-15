@@ -1,17 +1,16 @@
-
 # 🚀 Trilha Dev. Full Stack Jr. - +praTi & Codifica (2025)
 
 Este repositório contém todos os exercícios, projetos e atividades desenvolvidos durante o curso de Desenvolvimento Full Stack Jr. oferecido pela +praTi em parceria com a Codifica no ano de 2025.
 
 ![Badge em Desenvolvimento](https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow)
-![Badge Turma](https://img.shields.io/badge/Turma-1-blue)
+![Badge Turma](https://img.shields.io/badge/Turma-2-blue)
 ![Badge Período](https://img.shields.io/badge/Período-Abril%20a%20Dezembro%202025-green)
 
 ## 📋 Sobre o Curso
 
 A **Trilha Dev. Full Stack Jr.** é uma formação completa que abrange desde os fundamentos da ciência da computação até o desenvolvimento de aplicações web full stack, incluindo DevOps básico e introdução à inteligência artificial.
 
-O curso é estruturado em 6 módulos principais, totalizando aproximadamente 115 aulas, com foco na formação prática e teórica para o mercado de trabalho.
+O curso é estruturado em 6 módulos principais, com foco na formação prática e teórica para o mercado de trabalho.
 
 ## 📚 Módulos do Curso
 
@@ -84,34 +83,16 @@ Este repositório está organizado de acordo com os módulos e atividades do cur
     └── [projetos selecionados de maior complexidade]
 ```
 
-## 🎯 Projetos Concluídos
-
-1. **Lista Exercícios 01** - Primeiros algoritmos desenvolvidos em JavaScript
-   - [Código Fonte](./modulo-1-js-e-algoritmos/lista_exercicios_01/)
-   - Tecnologias: JavaScript
+## 🎯 Projetos e listas de exercícios concluídos:
 
 _(A lista será atualizada conforme novos projetos forem sendo concluídos)_
 
 ## 🛠️ Como Executar os Projetos
 
-Cada pasta de exercício ou projeto contém um arquivo README específico com instruções para execução. Em geral, para os projetos JavaScript:
-
-1. Clone este repositório:
-```bash
-git clone https://github.com/seu-usuario/trilha-fullstack-prati-codifica.git
-```
-
-2. Navegue até a pasta do exercício específico:
-```bash
-cd trilha-fullstack-prati-codifica/modulo-1-js-e-algoritmos/lista_exercicios_01
-```
-
-3. Siga as instruções do README específico da pasta para executar o projeto.
+Cada pasta de exercício ou projeto contém um arquivo README específico com instruções para execução.
 
 ## 📊 Meu Progresso no Curso
 
-- [x] Aula Inaugural (08/04/2025)
-- [x] Aulão Geral (09/04/2025)
 - [x] Módulo 1: Em andamento
   - [x] Lista de Exercícios 01
   - [ ] Lista de Exercícios 02
@@ -123,35 +104,15 @@ cd trilha-fullstack-prati-codifica/modulo-1-js-e-algoritmos/lista_exercicios_01
 - [ ] Módulo 6: Não iniciado
 - [ ] Projeto Final do Curso: Não iniciado
 
-## 📆 Cronograma
-
-- **Período do curso:** Abril a Dezembro de 2025
-- **Horário das aulas (Turma 1):**
-  - Segunda-feira: 18:45 às 20:30
-  - Terça-feira: 18:45 às 20:30
-  - Quinta-feira: 18:45 às 20:30
-- **Aulas aos sábados:** Uma vez por mês (duração de 3 horas)
-- **Sessão de dúvidas:** 8 encontros programados durante o curso (Discord)
-
 ## 📝 Notas e Observações
 
-Este repositório tem finalidade educacional e serve como registro da minha evolução ao longo do curso. Os exercícios e projetos aqui disponibilizados foram desenvolvidos como parte do aprendizado na Trilha Dev. Full Stack Jr. da +praTi & Codifica.
-
-## 🔗 Links Úteis
-
-- [+praTi](https://www.maisprati.com.br/)
-- [Codifica](https://codifica.com.br/)
-- [Documentação JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
-- [Documentação React](https://pt-br.reactjs.org/)
-- [Documentação Java](https://docs.oracle.com/javase/tutorial/)
-- [Documentação Spring](https://spring.io/guides)
+Este repositório tem finalidade educacional e serve como registro das atividades feitas ao longo do curso. Os exercícios e projetos aqui disponibilizados foram desenvolvidos como parte do aprendizado na Trilha Dev. Full Stack Jr. da +praTi & Codifica.
 
 ## 📫 Contato
 
 Para dúvidas ou sugestões sobre os códigos deste repositório:
 
 - LinkedIn: [Seu LinkedIn](https://www.linkedin.com/in/seu-perfil/)
-- Email: seuemail@exemplo.com
 - GitHub: [Seu Usuário](https://github.com/seu-usuario)
 
 ---
