@@ -52,34 +52,33 @@ O curso é estruturado em 6 módulos principais, com foco na formação prática
 Este repositório está organizado de acordo com os módulos e atividades do curso:
 
 ```
-├── modulo-1-js-e-algoritmos/
+├── modulo-1/
 │   ├── lista_exercicios_01/
 │   ├── lista_exercicios_02/
 │   └── projeto_final_modulo/
 │
-├── modulo-2-frontend/
+├── modulo-2/
 │   ├── exercicios_html_css/
 │   ├── exercicios_javascript/
 │   └── projeto_pagina_web/
 │
-├── modulo-3-react/
+├── modulo-3/
 │   ├── exercicios/
 │   └── projeto_spa/
 │
-├── modulo-4-java-spring/
+├── modulo-4/
 │   ├── exercicios_java/
 │   └── exercicios_spring/
 │
-├── modulo-5-backend/
+├── modulo-5/
 │   ├── exercicios_sql/
 │   └── projeto_api_rest/
 │
-├── modulo-6-devops-ia/
+├── modulo-6/
 │   ├── exercicios_python/
 │   └── projeto_final/
 │
-└── projetos-destaque/
-    └── [projetos selecionados de maior complexidade]
+└── projetos-destaque/    
 ```
 
 ## 🎯 Projetos e listas de exercícios concluídos:
