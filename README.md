@@ -1,9 +1,8 @@
 # 🚀 Trilha Dev. Full Stack Jr. - +praTi & Codifica (2025)
 
-Este repositório contém todos os exercícios, projetos e atividades desenvolvidos durante o curso de Desenvolvimento Full Stack Jr. oferecido pela +praTi em parceria com a Codifica no ano de 2025.
+Este repositório contém os exercícios, projetos e atividades desenvolvidos durante o curso de Desenvolvimento Full Stack Jr. oferecido pela +praTi em parceria com a Codifica no ano de 2025.
 
-![Badge em Desenvolvimento](https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow)
-![Badge Turma](https://img.shields.io/badge/Turma-2-blue)
+![Badge em Desenvolvimento](https://img.shields.io/badge/Status-Em%20Andamento-yellow)
 ![Badge Período](https://img.shields.io/badge/Período-Abril%20a%20Dezembro%202025-green)
 
 ## 📋 Sobre o Curso
@@ -85,35 +84,22 @@ Este repositório está organizado de acordo com os módulos e atividades do cur
 
 ## 🎯 Projetos e listas de exercícios concluídos:
 
-_(A lista será atualizada conforme novos projetos forem sendo concluídos)_
+[lista_exercicios_01]() 
 
 ## 🛠️ Como Executar os Projetos
 
 Cada pasta de exercício ou projeto contém um arquivo README específico com instruções para execução.
 
-## 📊 Meu Progresso no Curso
-
-- [x] Módulo 1: Em andamento
-  - [x] Lista de Exercícios 01
-  - [ ] Lista de Exercícios 02
-  - [ ] Projeto Final do Módulo
-- [ ] Módulo 2: Não iniciado
-- [ ] Módulo 3: Não iniciado
-- [ ] Módulo 4: Não iniciado
-- [ ] Módulo 5: Não iniciado
-- [ ] Módulo 6: Não iniciado
-- [ ] Projeto Final do Curso: Não iniciado
-
 ## 📝 Notas e Observações
 
-Este repositório tem finalidade educacional e serve como registro das atividades feitas ao longo do curso. Os exercícios e projetos aqui disponibilizados foram desenvolvidos como parte do aprendizado na Trilha Dev. Full Stack Jr. da +praTi & Codifica.
+Este repositório tem finalidade educacional e serve como registro das atividades feitas ao longo do curso. 
 
 ## 📫 Contato
 
 Para dúvidas ou sugestões sobre os códigos deste repositório:
 
-- LinkedIn: [Seu LinkedIn](https://www.linkedin.com/in/seu-perfil/)
-- GitHub: [Seu Usuário](https://github.com/seu-usuario)
+[![Github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Alan-oliveir)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alan-ogoncalves)
 
 ---
 
