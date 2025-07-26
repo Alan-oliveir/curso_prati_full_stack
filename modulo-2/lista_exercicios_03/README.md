@@ -73,9 +73,9 @@ Estilização da página com:
 
 ### **5. Seletores e Propriedades (styles.css)**
 Uso de seletores e propriedades em:
-- **Tags <h2>** para aumentar o tamanho da fonte e aplicar sublinhado
-- **Classe .destaque** para deixar o texto em itálico e alterar levemente a cor
-- **Identificador #importante** para adicionar border-top mais espessa em um parágrafo  
+- **Tags h2** para aumentar o tamanho da fonte e aplicar sublinhado
+- **Classe destaque** para deixar o texto em itálico e alterar levemente a cor
+- **Identificador importante** para adicionar border-top mais espessa em um parágrafo  
 
 ### **6. Galeria de Tecnologias (galeria.html)**
 Demonstração de layout moderno com:
