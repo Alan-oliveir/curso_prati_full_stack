@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário de Feedback - Desenvolvimento Web</title>
+  </head>
+  <body>
+    <header>
+      <h1>Formulário de Feedback</h1>
+      <p>
+        Sua opinião é muito importante para nós! Por favor, preencha o
+        formulário abaixo com seu feedback.
+      </p>
+    </header>
+
+    <main>
+      <section>
+        <h2>Envie seu Feedback</h2>
+        <form action="#" method="post">
+          <fieldset>
+            <legend>Dados Pessoais</legend>
+
+            <div>
+              <label for="nome">Nome Completo:</label>
+              <input type="text" id="nome" name="nome" required />
+            </div>
+
+            <div>
+              <label for="email">E-mail:</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+
+            <div>
+              <label for="endereco">Endereço Completo:</label>
+              <textarea
+                id="endereco"
+                name="endereco"
+                rows="3"
+                placeholder="Rua, número, bairro, cidade, estado, CEP"
+                required
+              ></textarea>
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>Feedback</legend>
+
+            <div>
+              <label for="tipo-feedback">Tipo de Feedback:</label>
+              <select id="tipo-feedback" name="tipo-feedback" required>
+                <option value="">Selecione uma opção</option>
+                <option value="sugestao">Sugestão</option>
+                <option value="elogio">Elogio</option>
+                <option value="reclamacao">Reclamação</option>
+                <option value="duvida">Dúvida</option>
+                <option value="outro">Outro</option>
+              </select>
+            </div>
+
+            <div>
+              <label for="feedback">Campo para o Feedback:</label>
+              <textarea
+                id="feedback"
+                name="feedback"
+                rows="6"
+                placeholder="Descreva seu feedback detalhadamente..."
+                required
+              ></textarea>
+            </div>
+          </fieldset>
+
+          <div>
+            <button type="submit">Enviar Feedback</button>
+            <button type="reset">Limpar Formulário</button>
+          </div>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>
+        &copy; 2025 Formulário de Feedback - Desenvolvimento Web. Todos os
+        direitos reservados.
+      </p>
+    </footer>
+  </body>
+</html>
