@@ -324,51 +324,13 @@
   transform: scale(1.05);
 }
 
-/* Timeline effect para desktop */
+/* Timeline effect removido para dar mais espaço ao conteúdo */
 @media (min-width: 769px) {
   .experience-container {
     position: relative;
-    padding-left: var(--spacing-md);
-  }
-
-  .experience-container::before {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 0;
-    bottom: 0;
-    width: 2px;
-    background: linear-gradient(
-      180deg,
-      var(--primary-color),
-      var(--secondary-color),
-      var(--primary-color)
-    );
-    border-radius: 1px;
   }
 
   .experience-item {
     position: relative;
-    margin-left: var(--spacing-md);
-  }
-
-  .experience-item::after {
-    content: "";
-    position: absolute;
-    left: calc(-1 * var(--spacing-md) - 6px);
-    top: var(--spacing-sm);
-    width: 12px;
-    height: 12px;
-    background: var(--primary-color);
-    border-radius: 50%;
-    border: 3px solid var(--bg-color);
-    box-shadow: var(--shadow-sm);
-    transition: var(--transition);
-  }
-
-  .experience-item:hover::after {
-    background: var(--secondary-color);
-    transform: scale(1.2);
-    box-shadow: var(--shadow-md);
   }
 }

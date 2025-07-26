@@ -49,7 +49,27 @@
 }
 
 .social-icon {
-  font-size: 1.2rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  margin-right: var(--spacing-xs);
+  border-radius: var(--border-radius);
+  background: var(--primary-color);
+  color: white;
+  transition: var(--transition);
+}
+
+.social-icon svg {
+  width: 16px;
+  height: 16px;
+  fill: currentColor;
+}
+
+.social-link:hover .social-icon {
+  background: var(--secondary-color);
+  transform: scale(1.1);
 }
 
 .quick-info ul {
@@ -60,6 +80,8 @@
   padding: var(--spacing-xs) 0;
   color: var(--text-light);
   border-bottom: 1px solid var(--border-color);
+  font-size: var(--font-size-sm);
+  line-height: 1.4;
 }
 
 .quick-info li:last-child {

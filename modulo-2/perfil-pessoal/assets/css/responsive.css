@@ -2,6 +2,18 @@
    MEDIA QUERIES - RESPONSIVIDADE
    =================================== */
 
+/* Monitores Full HD e maiores */
+@media (min-width: 1920px) {
+  #main-content {
+    max-width: 1400px;
+  }
+
+  .main-grid {
+    grid-template-columns: 1fr 380px;
+    gap: 3rem;
+  }
+}
+
 /* Tablets */
 @media (max-width: 968px) {
   .main-grid {
