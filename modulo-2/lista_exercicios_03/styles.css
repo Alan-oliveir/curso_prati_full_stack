@@ -1,4 +1,6 @@
-/* Exercício 4 - CSS Básico e Box Model */
+/*  =======================================
+    Exercício 4 - CSS Básico e Box Model
+    ======================================= */
 
 /* Reset básico */
 * {
@@ -88,7 +90,9 @@ footer p {
   font-weight: 300;
 }
 
-/* Exercício 5 - Seletores e Propriedades */
+/*  =======================================
+    Exercício 5 - Seletores e Propriedades
+    ======================================= */
 
 /* Estilo para todas as tags h2 */
 h2 {
@@ -110,7 +114,9 @@ h2 {
   padding-top: 15px;
 }
 
-/* Exercício 6 - Grid e Flexbox Galeria */
+/*  =======================================
+    Exercício 6 - Grid e Flexbox Galeria
+    ======================================= */
 
 /* Container Flexbox para centralizar a galeria */
 .galeria-container {
@@ -200,7 +206,9 @@ h2 {
   }
 }
 
-/* Exercício 7 - Menu Hamburger */
+/*  =======================================
+    Exercício 7 - Menu Hamburger
+    ======================================= */
 
 /* Navbar Container */
 .navbar {
