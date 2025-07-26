@@ -54,13 +54,11 @@ Este repositório está organizado de acordo com os módulos e atividades do cur
 ```
 ├── modulo-1/
 │   ├── lista_exercicios_01/
-│   ├── lista_exercicios_02/
-│   └── projeto_final_modulo/
+│   └── lista_exercicios_02/
 │
 ├── modulo-2/
-│   ├── exercicios_html_css/
-│   ├── exercicios_javascript/
-│   └── projeto_pagina_web/
+│   ├── lista_exercicios_03/
+│   └── prefil-pessoal/
 │
 ├── modulo-3/
 │   ├── exercicios/
@@ -83,7 +81,10 @@ Este repositório está organizado de acordo com os módulos e atividades do cur
 
 ## 🎯 Projetos e listas de exercícios concluídos:
 
-[lista_exercicios_01]() 
+[lista_exercicios_01]()
+[lista_exercicios_02]()
+[lista_exercicios_03]()
+[perfil-pessoal]() 
 
 ## 🛠️ Como Executar os Projetos
 
