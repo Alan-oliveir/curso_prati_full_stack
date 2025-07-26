@@ -201,9 +201,13 @@
 .project-links {
   display: flex;
   gap: var(--spacing-sm);
+  margin-top: var(--spacing-sm);
 }
 
 .project-link {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--spacing-xs);
   color: var(--primary-color);
   text-decoration: none;
   font-weight: 500;
@@ -211,13 +215,27 @@
   border: 2px solid var(--primary-color);
   border-radius: var(--border-radius);
   transition: var(--transition);
+  font-size: 0.9rem;
+}
+
+.project-link svg {
+  width: 18px;
+  height: 18px;
+  fill: currentColor;
+  transition: var(--transition);
 }
 
 .project-link:hover,
 .project-link:focus {
   background: var(--primary-color);
-  color: var(--text-white);
+  color: var(--text-white) !important;
   transform: translateY(-2px);
+  box-shadow: var(--shadow-sm);
+}
+
+.project-link:hover svg,
+.project-link:focus svg {
+  fill: var(--text-white) !important;
 }
 
 /* Seção Experiência */

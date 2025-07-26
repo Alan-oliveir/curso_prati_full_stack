@@ -93,8 +93,7 @@
 
 .nav-link:hover,
 .nav-link:focus {
-  background-color: var(--primary-color);
-  color: var(--text-white);
+  color: var(--primary-color);
   transform: translateY(-2px);
 }
 
