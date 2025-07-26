@@ -35,4 +35,4 @@ perfil-pessoal/
 
 ---
 
-Desenvolvido como projeto acadêmico para demonstrar conhecimentos em desenvolvimento web front-end.
+Desenvolvido como projeto de curso para demonstrar conhecimentos em desenvolvimento web front-end.
