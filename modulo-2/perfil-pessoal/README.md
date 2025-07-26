@@ -23,7 +23,6 @@ perfil-pessoal/
 
 1. Clone o repositório
 2. Abra o arquivo `perfil.html` em seu navegador
-3. Ou hospede os arquivos em um servidor web
 
 ## Tecnologias Utilizadas
 
