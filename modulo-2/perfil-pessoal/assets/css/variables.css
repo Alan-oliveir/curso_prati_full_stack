@@ -1,0 +1,58 @@
+/* ===================================
+   VARIÁVEIS CSS - DESIGN SYSTEM
+   =================================== */
+
+:root {
+  /* Cores principais */
+  --primary-color: #0077cc;
+  --secondary-color: #00a8e8;
+  --accent-color: #ff6b35;
+  --success-color: #28a745;
+  --warning-color: #ffc107;
+  --danger-color: #dc3545;
+
+  /* Cores de texto */
+  --text-color: #2c3e50;
+  --text-light: #6c757d;
+  --text-white: #ffffff;
+
+  /* Cores de fundo */
+  --bg-color: #ffffff;
+  --bg-light: #f8f9fa;
+  --bg-dark: #2c3e50;
+  --bg-section: #f1f3f4;
+
+  /* Bordas */
+  --border-color: #e9ecef;
+  --border-radius: 8px;
+  --border-radius-lg: 12px;
+
+  /* Sombras */
+  --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.1);
+  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 8px 25px rgba(0, 0, 0, 0.15);
+
+  /* Espaçamentos */
+  --spacing-xs: 0.5rem;
+  --spacing-sm: 1rem;
+  --spacing-md: 1.5rem;
+  --spacing-lg: 2rem;
+  --spacing-xl: 3rem;
+
+  /* Transições */
+  --transition: all 0.3s ease;
+  --transition-fast: all 0.2s ease;
+}
+
+/* Modo escuro (preferência do sistema) */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --text-color: #e9ecef;
+    --text-light: #adb5bd;
+    --bg-color: #1a1a1a;
+    --bg-light: #2c2c2c;
+    --bg-section: #3c3c3c;
+    --bg-dark: #0d1117;
+    --border-color: #404040;
+  }
+}

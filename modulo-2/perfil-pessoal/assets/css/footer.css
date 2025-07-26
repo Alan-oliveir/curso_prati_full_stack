@@ -1,0 +1,109 @@
+/* ===================================
+   FOOTER
+   =================================== */
+
+/* Footer Melhorado */
+#footer {
+  background: linear-gradient(135deg, var(--bg-dark), #1a1a1a);
+  color: var(--text-white);
+  margin-top: var(--spacing-xl);
+  position: relative;
+  overflow: hidden;
+}
+
+#footer::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(
+    90deg,
+    var(--primary-color),
+    var(--secondary-color)
+  );
+}
+
+.footer-content {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: var(--spacing-xl);
+  padding: var(--spacing-xl) 0;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-info h3 {
+  color: var(--primary-color);
+  margin-bottom: var(--spacing-sm);
+  font-size: 1.5rem;
+}
+
+.footer-info p {
+  margin-bottom: var(--spacing-xs);
+  opacity: 0.8;
+}
+
+.footer-links {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--spacing-lg);
+}
+
+.footer-section h4 {
+  color: var(--secondary-color);
+  margin-bottom: var(--spacing-sm);
+  font-size: 1.1rem;
+}
+
+.footer-section ul {
+  list-style: none;
+}
+
+.footer-section li {
+  margin-bottom: var(--spacing-xs);
+}
+
+.footer-section a {
+  color: var(--text-white);
+  text-decoration: none;
+  opacity: 0.8;
+  transition: var(--transition);
+}
+
+.footer-section a:hover {
+  opacity: 1;
+  color: var(--primary-color);
+}
+
+/* Links rápidos horizontais - estilo simples */
+.footer-nav-links {
+  display: flex;
+  gap: var(--spacing-lg);
+  flex-wrap: wrap;
+}
+
+.footer-nav-links a {
+  color: var(--text-white);
+  text-decoration: none;
+  opacity: 0.8;
+  transition: var(--transition);
+  font-size: 0.95rem;
+}
+
+.footer-nav-links a:hover {
+  opacity: 1;
+  color: var(--primary-color);
+}
+
+.footer-bottom {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding: var(--spacing-md) 0;
+  text-align: center;
+  opacity: 0.7;
+}
+
+.footer-bottom p {
+  margin-bottom: var(--spacing-xs);
+}

@@ -1,0 +1,92 @@
+/* ===================================
+   SIDEBAR
+   =================================== */
+
+/* Sidebar */
+#sidebar {
+  background: var(--bg-color);
+  padding: var(--spacing-lg);
+  border-radius: var(--border-radius-lg);
+  box-shadow: var(--shadow-md);
+  height: fit-content;
+  position: sticky;
+  top: 100px;
+}
+
+.sidebar-content > div {
+  margin-bottom: var(--spacing-lg);
+}
+
+.sidebar-content h4 {
+  color: var(--primary-color);
+  margin-bottom: var(--spacing-sm);
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.social-links {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-xs);
+}
+
+.social-link {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-xs);
+  color: var(--text-color);
+  text-decoration: none;
+  padding: var(--spacing-xs);
+  border-radius: var(--border-radius);
+  transition: var(--transition);
+}
+
+.social-link:hover,
+.social-link:focus {
+  background: var(--bg-light);
+  color: var(--primary-color);
+  transform: translateX(4px);
+}
+
+.social-icon {
+  font-size: 1.2rem;
+}
+
+.quick-info ul {
+  list-style: none;
+}
+
+.quick-info li {
+  padding: var(--spacing-xs) 0;
+  color: var(--text-light);
+  border-bottom: 1px solid var(--border-color);
+}
+
+.quick-info li:last-child {
+  border-bottom: none;
+}
+
+/* Novo estilo para download CV */
+.download-cv {
+  text-align: center;
+}
+
+.cv-download-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--spacing-xs);
+  background: var(--primary-color);
+  color: var(--text-white);
+  text-decoration: none;
+  padding: var(--spacing-sm) var(--spacing-md);
+  border-radius: var(--border-radius);
+  font-weight: 600;
+  transition: var(--transition);
+  box-shadow: var(--shadow-sm);
+}
+
+.cv-download-btn:hover {
+  background: var(--secondary-color);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}

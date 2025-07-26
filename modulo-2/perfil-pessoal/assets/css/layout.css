@@ -1,0 +1,57 @@
+/* ===================================
+   LAYOUT PRINCIPAL
+   =================================== */
+
+/* Main Content - Layout centralizado */
+#main-content {
+  padding: var(--spacing-xl) 0;
+  display: block;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Layout em grid para desktop */
+.main-grid {
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  gap: var(--spacing-xl);
+}
+
+/* Seções */
+.section {
+  margin-bottom: var(--spacing-xl);
+  background-color: var(--bg-color);
+  padding: var(--spacing-lg);
+  border-radius: var(--border-radius-lg);
+  box-shadow: var(--shadow-md);
+  transition: var(--transition);
+}
+
+.section:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
+}
+
+.section-title {
+  font-size: 2.5rem;
+  color: var(--primary-color);
+  margin-bottom: var(--spacing-lg);
+  text-align: center;
+  position: relative;
+}
+
+.section-title::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  width: 60px;
+  height: 3px;
+  background: linear-gradient(
+    90deg,
+    var(--primary-color),
+    var(--secondary-color)
+  );
+  transform: translateX(-50%);
+  border-radius: 2px;
+}

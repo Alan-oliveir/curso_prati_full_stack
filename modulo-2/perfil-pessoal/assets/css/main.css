@@ -1,0 +1,38 @@
+/* ===================================
+   ARQUIVO PRINCIPAL CSS - PERFIL PESSOAL
+   Alan de Oliveira Gonçalves
+   =================================== */
+
+/* Importação dos módulos CSS */
+@import url("./variables.css");
+@import url("./reset.css");
+@import url("./layout.css");
+@import url("./header.css");
+@import url("./sections.css");
+@import url("./forms.css");
+@import url("./sidebar.css");
+@import url("./footer.css");
+@import url("./responsive.css");
+@import url("./animations.css");
+
+/* ===================================
+   ESTILOS ESPECÍFICOS DA PÁGINA
+   =================================== */
+
+/* Customizações específicas que não se encaixam nos módulos */
+.section.featured {
+  border: 2px solid var(--primary-color);
+}
+
+/* Dark mode específico para componentes */
+@media (prefers-color-scheme: dark) {
+  .section {
+    background-color: var(--bg-light);
+  }
+
+  .contact-form,
+  .skill-category,
+  .testimonial {
+    background-color: var(--bg-section);
+  }
+}
