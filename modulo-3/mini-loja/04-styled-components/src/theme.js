@@ -1,0 +1,31 @@
+export const light = {
+  mode: "light",
+  bg: "#ffffff",
+  popover: "#f7f7f8",
+  text: "#0f172a",
+  muted: "#475569",
+  primary: "#2563eb",
+  primaryContrast: "#ffffff",
+  accent: "#16a34a",
+  danger: "#dc2626",
+  border: "#e5e7eb",
+  shadow: "0 1px 2px rgba(15, 23, 42, 0.06), 0 2px 8px rgba(15, 23, 42, 0.08)",
+  shadowHover: "0 8px 24px rgba(15, 23, 42, 0.12)",
+  radius: "12px",
+};
+
+export const dark = {
+  mode: "dark",
+  bg: "#0b1220",
+  popover: "#111827",
+  text: "#e5e7eb",
+  muted: "#9ca3af",
+  primary: "#60a5fa",
+  primaryContrast: "#0b1220",
+  accent: "#22c55e",
+  danger: "#f87171",
+  border: "#1f2937",
+  shadow: "0 1px 2px rgba(0,0,0,0.5), 0 2px 8px rgba(0,0,0,0.6)",
+  shadowHover: "0 8px 24px rgba(0,0,0,0.6)",
+  radius: "12px",
+};
