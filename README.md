@@ -2,8 +2,8 @@
 
 Este repositório contém os exercícios, projetos e atividades desenvolvidos durante o curso de Desenvolvimento Full Stack Jr. oferecido pela +praTi em parceria com a Codifica no ano de 2025.
 
-![Badge em Desenvolvimento](https://img.shields.io/badge/Status-Em%20Andamento-yellow)
-![Badge Período](https://img.shields.io/badge/Período-Abril%20a%20Dezembro%202025-green)
+![Badge Concluído](https://img.shields.io/badge/Status-Concluído-green)
+![Badge Período](https://img.shields.io/badge/Período-Abril%20a%20Novembro%20de%202025-green)
 
 ## 📋 Sobre o Curso
 
